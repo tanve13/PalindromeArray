@@ -20,7 +20,6 @@ public class LongestPalindrome {
                 }
             }
 
-            // If any odd frequency exists → one odd char can be placed in center
             return oddFound ? length + 1 : length;
         }
     }
