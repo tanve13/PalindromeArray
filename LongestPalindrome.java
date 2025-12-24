@@ -7,8 +7,7 @@ public class LongestPalindrome {
             for (char c : s.toCharArray()) {
                 count[c]++;
             }
-
-            int length = 0;
+           int length = 0;
             boolean oddFound = false;
 
             for (int freq : count) {
